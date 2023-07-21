@@ -76,4 +76,4 @@ jobs:
           Unofficial dev release.
           Support [official version](https://www.aseprite.org/download)
       env:
-        GITHUB_TOKEN: ${{ secrets.work1 }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
